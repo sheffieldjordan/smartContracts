@@ -11,4 +11,7 @@ contract Greeter {
     function getGreeting() public view returns(string){
         return greeting;
     }
+    
+    function() {
+        revert();
 }
