@@ -21,4 +21,7 @@ contract XorFunction {
         return result;
     }
 
+    function() {
+        revert();
+    }
 }
